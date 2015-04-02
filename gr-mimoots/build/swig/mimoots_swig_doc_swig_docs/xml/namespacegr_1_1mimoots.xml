@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespacegr_1_1mimoots" kind="namespace">
+    <compoundname>gr::mimoots</compoundname>
+    <innerclass refid="classgr_1_1mimoots_1_1logcsv__cb" prot="public">gr::mimoots::logcsv_cb</innerclass>
+    <innerclass refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc" prot="public">gr::mimoots::ofdm_extract_frame_cvc</innerclass>
+    <innerclass refid="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc" prot="public">gr::mimoots::ofdm_scale_symbol_vcvc</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zwobot/projects/mimoots/gr-mimoots/include/mimoots/logcsv_cb.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

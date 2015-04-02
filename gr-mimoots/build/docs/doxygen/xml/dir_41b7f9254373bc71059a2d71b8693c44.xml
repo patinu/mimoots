@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_41b7f9254373bc71059a2d71b8693c44" kind="dir">
+    <compoundname>mimoots</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="logcsv__cb_8h">logcsv_cb.h</innerfile>
+    <innerfile refid="ofdm__extract__frame__cvc_8h">ofdm_extract_frame_cvc.h</innerfile>
+    <innerfile refid="ofdm__scale__symbol__vcvc_8h">ofdm_scale_symbol_vcvc.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zwobot/projects/mimoots/gr-mimoots/include/mimoots/"/>
+  </compounddef>
+</doxygen>

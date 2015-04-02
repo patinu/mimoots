@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1mimoots_1_1logcsv__cb__impl" kind="class" prot="public">
+    <compoundname>gr::mimoots::logcsv_cb_impl</compoundname>
+    <basecompoundref refid="classgr_1_1mimoots_1_1logcsv__cb" prot="public" virt="non-virtual">gr::mimoots::logcsv_cb</basecompoundref>
+    <includes refid="logcsv__cb__impl_8h" local="no">logcsv_cb_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1a714423108520e0bd500058e6633b8222" prot="private" static="no" mutable="no">
+        <type>std::ofstream</type>
+        <definition>std::ofstream gr::mimoots::logcsv_cb_impl::d_csvfile</definition>
+        <argsstring></argsstring>
+        <name>d_csvfile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="34" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1a8e8b3479277eb508e8afd1f3bc7dbae3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mimoots::logcsv_cb_impl::d_fft_length</definition>
+        <argsstring></argsstring>
+        <name>d_fft_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="35" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1ad5e167178f0a7cf2adb87a8bd812e0fc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mimoots::logcsv_cb_impl::d_used_tones</definition>
+        <argsstring></argsstring>
+        <name>d_used_tones</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="36" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1a6a00002862c01c1419a9e805ef86dbf4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mimoots::logcsv_cb_impl::d_fft_tones_start</definition>
+        <argsstring></argsstring>
+        <name>d_fft_tones_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="37" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1a3fc327b8622b12a0e40cbe58480a515a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mimoots::logcsv_cb_impl::d_fft_tones_end</definition>
+        <argsstring></argsstring>
+        <name>d_fft_tones_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="38" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1a83aa0dd0ea2cf9c49c38e830fceb8ea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mimoots::logcsv_cb_impl::logcsv_cb_impl</definition>
+        <argsstring>(int fft_length, int used_tones)</argsstring>
+        <name>logcsv_cb_impl</name>
+        <param>
+          <type>int</type>
+          <declname>fft_length</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>used_tones</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1aaf9e3eaa02cda01c34cfff16c4a2235b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mimoots::logcsv_cb_impl::~logcsv_cb_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~logcsv_cb_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1ac624242c05d8f0087f37860b092ec79e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimoots::logcsv_cb_impl::set_csvline</definition>
+        <argsstring>(std::string csvline)</argsstring>
+        <name>set_csvline</name>
+        <param>
+          <type>std::string</type>
+          <declname>csvline</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1adf0d57869ff05c1067474137237caadd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string gr::mimoots::logcsv_cb_impl::csvline</definition>
+        <argsstring>()</argsstring>
+        <name>csvline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1a8d4d914772211ea89928f5f46fbecee7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimoots::logcsv_cb_impl::set_fft_length</definition>
+        <argsstring>(int fft_length)</argsstring>
+        <name>set_fft_length</name>
+        <param>
+          <type>int</type>
+          <declname>fft_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1ad6a858fc96569708c1737a0bc5b2e2ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mimoots::logcsv_cb_impl::fft_length</definition>
+        <argsstring>()</argsstring>
+        <name>fft_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1a7f107729a7e9dfa697d0c7862dfba231" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimoots::logcsv_cb_impl::set_used_tones</definition>
+        <argsstring>(int used_tones)</argsstring>
+        <name>set_used_tones</name>
+        <param>
+          <type>int</type>
+          <declname>used_tones</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1acb1a5a346054cc42c1eadb5307b1d67a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mimoots::logcsv_cb_impl::used_tones</definition>
+        <argsstring>()</argsstring>
+        <name>used_tones</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1af198daedc97239a6f78d395733c8d30b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimoots::logcsv_cb_impl::set_fft_tones_start</definition>
+        <argsstring>(int fft_tones_start)</argsstring>
+        <name>set_fft_tones_start</name>
+        <param>
+          <type>int</type>
+          <declname>fft_tones_start</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1a99c2604b2772b91a86b48093232617d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mimoots::logcsv_cb_impl::fft_tones_start</definition>
+        <argsstring>()</argsstring>
+        <name>fft_tones_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1a8476ffab928b5a93e4e405bba5b2bb88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimoots::logcsv_cb_impl::set_fft_tones_end</definition>
+        <argsstring>(int fft_tones_end)</argsstring>
+        <name>set_fft_tones_end</name>
+        <param>
+          <type>int</type>
+          <declname>fft_tones_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1ad4e0efc9990f232fbbd7dfcbe2ada9e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mimoots::logcsv_cb_impl::fft_tones_end</definition>
+        <argsstring>()</argsstring>
+        <name>fft_tones_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1ac9fcc154097744db91ac9478e267a178" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimoots::logcsv_cb_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1logcsv__cb__impl_1a0a3fb0e50ed9061071c16f8602b3b837" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mimoots::logcsv_cb_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="61" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="23">
+        <label>gr::mimoots::logcsv_cb_impl</label>
+        <link refid="classgr_1_1mimoots_1_1logcsv__cb__impl"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>block</label>
+      </node>
+      <node id="24">
+        <label>gr::mimoots::logcsv_cb</label>
+        <link refid="classgr_1_1mimoots_1_1logcsv__cb"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="26">
+        <label>gr::mimoots::logcsv_cb_impl</label>
+        <link refid="classgr_1_1mimoots_1_1logcsv__cb__impl"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>block</label>
+      </node>
+      <node id="27">
+        <label>gr::mimoots::logcsv_cb</label>
+        <link refid="classgr_1_1mimoots_1_1logcsv__cb"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" line="32" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h" bodystart="31" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1adf0d57869ff05c1067474137237caadd" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>csvline</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1a714423108520e0bd500058e6633b8222" prot="private" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>d_csvfile</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1a8e8b3479277eb508e8afd1f3bc7dbae3" prot="private" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>d_fft_length</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1a3fc327b8622b12a0e40cbe58480a515a" prot="private" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>d_fft_tones_end</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1a6a00002862c01c1419a9e805ef86dbf4" prot="private" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>d_fft_tones_start</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1ad5e167178f0a7cf2adb87a8bd812e0fc" prot="private" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>d_used_tones</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1ad6a858fc96569708c1737a0bc5b2e2ae" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>fft_length</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1ad4e0efc9990f232fbbd7dfcbe2ada9e1" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>fft_tones_end</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1a99c2604b2772b91a86b48093232617d3" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>fft_tones_start</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1ac9fcc154097744db91ac9478e267a178" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1a0a3fb0e50ed9061071c16f8602b3b837" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1a83aa0dd0ea2cf9c49c38e830fceb8ea2" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>logcsv_cb_impl</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb_1ae8c00c08c25a5d8573bf0d4a27534f78" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1ac624242c05d8f0087f37860b092ec79e" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>set_csvline</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1a8d4d914772211ea89928f5f46fbecee7" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>set_fft_length</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1a8476ffab928b5a93e4e405bba5b2bb88" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>set_fft_tones_end</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1af198daedc97239a6f78d395733c8d30b" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>set_fft_tones_start</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1a7f107729a7e9dfa697d0c7862dfba231" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>set_used_tones</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb_1acde19311518da9ca300dc93fd2a28a27" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1acb1a5a346054cc42c1eadb5307b1d67a" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>used_tones</name></member>
+      <member refid="classgr_1_1mimoots_1_1logcsv__cb__impl_1aaf9e3eaa02cda01c34cfff16c4a2235b" prot="public" virt="non-virtual"><scope>gr::mimoots::logcsv_cb_impl</scope><name>~logcsv_cb_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

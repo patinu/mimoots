@@ -1,0 +1,12 @@
+/home/zwobot/projects/mimoots/gr-mimoots/build/swig/CMakeFiles/_mimoots_swig.dir
+/home/zwobot/projects/mimoots/gr-mimoots/build/swig/CMakeFiles/_mimoots_swig_doc_tag.dir
+/home/zwobot/projects/mimoots/gr-mimoots/build/swig/CMakeFiles/_mimoots_swig_swig_tag.dir
+/home/zwobot/projects/mimoots/gr-mimoots/build/docs/doxygen/CMakeFiles/doxygen_target.dir
+/home/zwobot/projects/mimoots/gr-mimoots/build/lib/CMakeFiles/gnuradio-mimoots.dir
+/home/zwobot/projects/mimoots/gr-mimoots/build/swig/CMakeFiles/mimoots_swig_swig_2d0df.dir
+/home/zwobot/projects/mimoots/gr-mimoots/build/swig/CMakeFiles/mimoots_swig_swig_doc.dir
+/home/zwobot/projects/mimoots/gr-mimoots/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/zwobot/projects/mimoots/gr-mimoots/build/python/CMakeFiles/pygen_python_e4fa6.dir
+/home/zwobot/projects/mimoots/gr-mimoots/build/swig/CMakeFiles/pygen_swig_42f09.dir
+/home/zwobot/projects/mimoots/gr-mimoots/build/lib/CMakeFiles/test-mimoots.dir
+/home/zwobot/projects/mimoots/gr-mimoots/build/CMakeFiles/uninstall.dir

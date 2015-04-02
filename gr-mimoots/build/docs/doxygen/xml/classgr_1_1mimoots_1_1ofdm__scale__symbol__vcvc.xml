@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc" kind="class" prot="public">
+    <compoundname>gr::mimoots::ofdm_scale_symbol_vcvc</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc__impl" prot="public" virt="non-virtual">gr::mimoots::ofdm_scale_symbol_vcvc_impl</derivedcompoundref>
+    <includes refid="ofdm__scale__symbol__vcvc_8h" local="no">ofdm_scale_symbol_vcvc.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc_1a909f7b66ac2a6f2ad3327b9348cc3210" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc" kindref="compound">ofdm_scale_symbol_vcvc</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;ofdm_scale_symbol_vcvc&gt; gr::mimoots::ofdm_scale_symbol_vcvc::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/include/mimoots/ofdm_scale_symbol_vcvc.h" line="47" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/include/mimoots/ofdm_scale_symbol_vcvc.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc_1a7716dc891b9167f1f96ae241990f02e2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc_1a909f7b66ac2a6f2ad3327b9348cc3210" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::mimoots::ofdm_scale_symbol_vcvc::make</definition>
+        <argsstring>(size_t symbol_len, float scale=1)</argsstring>
+        <name>make</name>
+        <param>
+          <type>size_t</type>
+          <declname>symbol_len</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc" kindref="compound">mimoots::ofdm_scale_symbol_vcvc</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc" kindref="compound">mimoots::ofdm_scale_symbol_vcvc</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc_1a7716dc891b9167f1f96ae241990f02e2" kindref="member">mimoots::ofdm_scale_symbol_vcvc::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/include/mimoots/ofdm_scale_symbol_vcvc.h" line="57" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Takes an OFDM-Symbol and divides every value by the maximum value in this OFDM-Symbol that every value has an absolute smaller or equal than 1. </para>    </briefdescription>
+    <detaileddescription>
+<para>The input is a vector with the size of fft_len. It should be an OFDM-Symbol. To keep every absolute value of all complex values lower or equal than 1, the block searches for the value with the largest absolute and devides every value by it. It is possible to scale all normalized values with a parameter called scale. The output is a normalized vector with the length of fft_len. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="42">
+        <label>gr::mimoots::ofdm_scale_symbol_vcvc_impl</label>
+        <link refid="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc__impl"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="40">
+        <label>gr::mimoots::ofdm_scale_symbol_vcvc</label>
+        <link refid="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="44">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="43">
+        <label>gr::mimoots::ofdm_scale_symbol_vcvc</label>
+        <link refid="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/zwobot/projects/mimoots/gr-mimoots/include/mimoots/ofdm_scale_symbol_vcvc.h" line="45" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/include/mimoots/ofdm_scale_symbol_vcvc.h" bodystart="44" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc_1a7716dc891b9167f1f96ae241990f02e2" prot="public" virt="non-virtual"><scope>gr::mimoots::ofdm_scale_symbol_vcvc</scope><name>make</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc_1a909f7b66ac2a6f2ad3327b9348cc3210" prot="public" virt="non-virtual"><scope>gr::mimoots::ofdm_scale_symbol_vcvc</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

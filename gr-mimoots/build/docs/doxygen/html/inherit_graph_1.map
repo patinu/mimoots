@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc.html" title="Takes an OFDM&#45;Symbol and divides every value by the maximum value in this OFDM&#45;Symbol that every valu..." alt="" coords="142,5,309,46"/>
+<area shape="rect" id="node3" href="$classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc__impl.html" title="gr::mimoots::ofdm_scale\l_symbol_vcvc_impl" alt="" coords="358,5,525,46"/>
+</map>

@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl" kind="class" prot="public">
+    <compoundname>gr::mimoots::ofdm_extract_frame_cvc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc" prot="public" virt="non-virtual">gr::mimoots::ofdm_extract_frame_cvc</basecompoundref>
+    <includes refid="ofdm__extract__frame__cvc__impl_8h" local="no">ofdm_extract_frame_cvc_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a5512056e47897c03b66b468aba0eedf4" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::mimoots::ofdm_extract_frame_cvc_impl::d_fft_len</definition>
+        <argsstring></argsstring>
+        <name>d_fft_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="37" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1ae41c9d7498ee89f01e89cfb9805f2f85" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::mimoots::ofdm_extract_frame_cvc_impl::d_cp_len</definition>
+        <argsstring></argsstring>
+        <name>d_cp_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="38" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a4c19e455139957461f5e374bb9415e7f" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::mimoots::ofdm_extract_frame_cvc_impl::d_nsymbols_per_ofdmframe</definition>
+        <argsstring></argsstring>
+        <name>d_nsymbols_per_ofdmframe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="39" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a717c92b32ba3889209d8f801cc7fa413" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::mimoots::ofdm_extract_frame_cvc_impl::d_current_symbol</definition>
+        <argsstring></argsstring>
+        <name>d_current_symbol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="40" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a2a5ab0d3909488ae50b8de25bf2c0ae3" prot="private" static="no" mutable="no">
+        <type>enum <ref refid="namespacegr_1_1mimoots_1a727f62a597bf04bc8e5cbfa0d4851cac" kindref="member">state_t</ref></type>
+        <definition>enum state_t gr::mimoots::ofdm_extract_frame_cvc_impl::d_state</definition>
+        <argsstring></argsstring>
+        <name>d_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="40" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a786834813f1fc0c11475f0c6126a0337" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::mimoots::ofdm_extract_frame_cvc_impl::d_info</definition>
+        <argsstring></argsstring>
+        <name>d_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="42" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a38e640dc687c617b78b393f4b914dea4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mimoots::ofdm_extract_frame_cvc_impl::ofdm_extract_frame_cvc_impl</definition>
+        <argsstring>(size_t fft_len, size_t cp_len, size_t nsymbols_per_ofdmframe, bool info)</argsstring>
+        <name>ofdm_extract_frame_cvc_impl</name>
+        <param>
+          <type>size_t</type>
+          <declname>fft_len</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>cp_len</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>nsymbols_per_ofdmframe</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1aa120e4c087777ebd03daf9d51adcccf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mimoots::ofdm_extract_frame_cvc_impl::~ofdm_extract_frame_cvc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~ofdm_extract_frame_cvc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a358f861170b057da37cbf9dc4fd832e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mimoots::ofdm_extract_frame_cvc_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a913320fa9892599d3ede24570ad8b73c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mimoots::ofdm_extract_frame_cvc_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a289203006efd527c3a59f074314e73f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>size_t gr::mimoots::ofdm_extract_frame_cvc_impl::fft_len</definition>
+        <argsstring>()</argsstring>
+        <name>fft_len</name>
+        <reimplements refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc_1a588f96bcba2f9897d63c6eb8d82a5b73">fft_len</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a19cb4f068b52b612c7435350baa933a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>size_t gr::mimoots::ofdm_extract_frame_cvc_impl::cp_len</definition>
+        <argsstring>()</argsstring>
+        <name>cp_len</name>
+        <reimplements refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc_1a3127619589950659a63fbd37a52b4cf0">cp_len</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1af83850fdc92a195dc1d669ab8615c214" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>size_t gr::mimoots::ofdm_extract_frame_cvc_impl::nsymbols_per_ofdmframe</definition>
+        <argsstring>()</argsstring>
+        <name>nsymbols_per_ofdmframe</name>
+        <reimplements refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc_1a7c11bf99d3e991edc5ace4dde1e6a58b">nsymbols_per_ofdmframe</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a61da02e75b5597afad25a9cd7af3c529" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool gr::mimoots::ofdm_extract_frame_cvc_impl::info</definition>
+        <argsstring>()</argsstring>
+        <name>info</name>
+        <reimplements refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc_1ab524bdc2f4fe4b80de51144989546ddd">info</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a3bba7bd3541f0aefd6c81e89097e0969" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::mimoots::ofdm_extract_frame_cvc_impl::set_fft_len</definition>
+        <argsstring>(size_t)</argsstring>
+        <name>set_fft_len</name>
+        <reimplements refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc_1ac53d944ae316a7f8b6e0ec8a6a752bdf">set_fft_len</reimplements>
+        <param>
+          <type>size_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a9c97b41f03b72d60d6c2d84051fd75ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::mimoots::ofdm_extract_frame_cvc_impl::set_cp_len</definition>
+        <argsstring>(size_t)</argsstring>
+        <name>set_cp_len</name>
+        <reimplements refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc_1a5bd38175ab67d00fe9a8f143af6d65e8">set_cp_len</reimplements>
+        <param>
+          <type>size_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1aeeb9f3d8948e29331c55ee14fd3ee75f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::mimoots::ofdm_extract_frame_cvc_impl::set_nsymbols_per_ofdmframe</definition>
+        <argsstring>(size_t)</argsstring>
+        <name>set_nsymbols_per_ofdmframe</name>
+        <reimplements refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc_1ac89c215fc2173b2c981edbeeb3e12470">set_nsymbols_per_ofdmframe</reimplements>
+        <param>
+          <type>size_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a24d78422417cc86788025f2abbf0d94a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::mimoots::ofdm_extract_frame_cvc_impl::set_info</definition>
+        <argsstring>(bool)</argsstring>
+        <name>set_info</name>
+        <reimplements refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc_1a7efdb9b7af1c9184930da14d407c248f">set_info</reimplements>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="70" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="34">
+        <label>gr::mimoots::ofdm_extract_frame_cvc_impl</label>
+        <link refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>gr::mimoots::ofdm_extract_frame_cvc</label>
+        <link refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="37">
+        <label>gr::mimoots::ofdm_extract_frame_cvc_impl</label>
+        <link refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>gr::mimoots::ofdm_extract_frame_cvc</label>
+        <link refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="35" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" bodystart="34" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a19cb4f068b52b612c7435350baa933a5" prot="public" virt="virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>cp_len</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1ae41c9d7498ee89f01e89cfb9805f2f85" prot="private" virt="non-virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>d_cp_len</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a717c92b32ba3889209d8f801cc7fa413" prot="private" virt="non-virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>d_current_symbol</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a5512056e47897c03b66b468aba0eedf4" prot="private" virt="non-virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>d_fft_len</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a786834813f1fc0c11475f0c6126a0337" prot="private" virt="non-virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>d_info</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a4c19e455139957461f5e374bb9415e7f" prot="private" virt="non-virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>d_nsymbols_per_ofdmframe</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a2a5ab0d3909488ae50b8de25bf2c0ae3" prot="private" virt="non-virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>d_state</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a289203006efd527c3a59f074314e73f4" prot="public" virt="virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>fft_len</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a358f861170b057da37cbf9dc4fd832e5" prot="public" virt="non-virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a913320fa9892599d3ede24570ad8b73c" prot="public" virt="non-virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a61da02e75b5597afad25a9cd7af3c529" prot="public" virt="virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>info</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc_1aba6bae6ae7ba64300ba09492da2546ef" prot="public" virt="non-virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1af83850fdc92a195dc1d669ab8615c214" prot="public" virt="virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>nsymbols_per_ofdmframe</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a38e640dc687c617b78b393f4b914dea4" prot="public" virt="non-virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>ofdm_extract_frame_cvc_impl</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a9c97b41f03b72d60d6c2d84051fd75ec" prot="public" virt="virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>set_cp_len</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a3bba7bd3541f0aefd6c81e89097e0969" prot="public" virt="virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>set_fft_len</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1a24d78422417cc86788025f2abbf0d94a" prot="public" virt="virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>set_info</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1aeeb9f3d8948e29331c55ee14fd3ee75f" prot="public" virt="virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>set_nsymbols_per_ofdmframe</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc_1aed5df0e91e5a101db8a59201acf3a953" prot="public" virt="non-virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl_1aa120e4c087777ebd03daf9d51adcccf5" prot="public" virt="non-virtual"><scope>gr::mimoots::ofdm_extract_frame_cvc_impl</scope><name>~ofdm_extract_frame_cvc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

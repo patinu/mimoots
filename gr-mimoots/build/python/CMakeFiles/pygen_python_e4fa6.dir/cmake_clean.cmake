@@ -1,0 +1,42 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/pygen_python_e4fa6"
+  "__init__.pyc"
+  "ofdm_create_frames_bc.pyc"
+  "utils.pyc"
+  "ofdm_receive_frames_cb.pyc"
+  "uhd_sink.pyc"
+  "uhd_source.pyc"
+  "uhd_sink2.pyc"
+  "uhd_source2.pyc"
+  "ofdm_symbol_mapper_bc.pyc"
+  "ofdm_symbols_to_frame_cc.pyc"
+  "ofdm_symbol_demapper_cb.pyc"
+  "ofdm_basebandsignal_to_frames_cvc.pyc"
+  "ofdm_frame_to_symbols_vcc.pyc"
+  "ofdm_frames_to_basebandsignal_vcc.pyc"
+  "ofdm_symbols_to_frame_cvc.pyc"
+  "file_sink2.pyc"
+  "file_source2.pyc"
+  "__init__.pyo"
+  "ofdm_create_frames_bc.pyo"
+  "utils.pyo"
+  "ofdm_receive_frames_cb.pyo"
+  "uhd_sink.pyo"
+  "uhd_source.pyo"
+  "uhd_sink2.pyo"
+  "uhd_source2.pyo"
+  "ofdm_symbol_mapper_bc.pyo"
+  "ofdm_symbols_to_frame_cc.pyo"
+  "ofdm_symbol_demapper_cb.pyo"
+  "ofdm_basebandsignal_to_frames_cvc.pyo"
+  "ofdm_frame_to_symbols_vcc.pyo"
+  "ofdm_frames_to_basebandsignal_vcc.pyo"
+  "ofdm_symbols_to_frame_cvc.pyo"
+  "file_sink2.pyo"
+  "file_source2.pyo"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang)
+  INCLUDE(CMakeFiles/pygen_python_e4fa6.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

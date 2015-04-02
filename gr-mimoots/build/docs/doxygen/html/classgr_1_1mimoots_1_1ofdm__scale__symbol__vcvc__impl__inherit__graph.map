@@ -1,0 +1,3 @@
+<map id="gr::mimoots::ofdm_scale_symbol_vcvc_impl" name="gr::mimoots::ofdm_scale_symbol_vcvc_impl">
+<area shape="rect" id="node2" href="$classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc.html" title="Takes an OFDM&#45;Symbol and divides every value by the maximum value in this OFDM&#45;Symbol that every valu..." alt="" coords="5,81,171,122"/>
+</map>

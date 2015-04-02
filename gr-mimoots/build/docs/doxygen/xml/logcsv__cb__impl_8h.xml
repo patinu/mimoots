@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="logcsv__cb__impl_8h" kind="file">
+    <compoundname>logcsv_cb_impl.h</compoundname>
+    <includes refid="logcsv__cb_8h" local="no">mimoots/logcsv_cb.h</includes>
+    <includes local="no">fstream</includes>
+    <incdepgraph>
+      <node id="71">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="70">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="72">
+        <label>fstream</label>
+      </node>
+      <node id="67">
+        <label>logcsv_cb_impl.h</label>
+        <link refid="logcsv_cb_impl.h"/>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>mimoots/logcsv_cb.h</label>
+        <link refid="logcsv__cb_8h"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>mimoots/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="70" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1mimoots_1_1logcsv__cb__impl" prot="public">gr::mimoots::logcsv_cb_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1mimoots">gr::mimoots</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/logcsv_cb_impl.h"/>
+  </compounddef>
+</doxygen>

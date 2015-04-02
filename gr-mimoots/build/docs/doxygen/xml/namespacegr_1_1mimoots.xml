@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespacegr_1_1mimoots" kind="namespace">
+    <compoundname>gr::mimoots</compoundname>
+    <innerclass refid="classgr_1_1mimoots_1_1logcsv__cb" prot="public">gr::mimoots::logcsv_cb</innerclass>
+    <innerclass refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc" prot="public">gr::mimoots::ofdm_extract_frame_cvc</innerclass>
+    <innerclass refid="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc" prot="public">gr::mimoots::ofdm_scale_symbol_vcvc</innerclass>
+    <innerclass refid="classgr_1_1mimoots_1_1logcsv__cb__impl" prot="public">gr::mimoots::logcsv_cb_impl</innerclass>
+    <innerclass refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc__impl" prot="public">gr::mimoots::ofdm_extract_frame_cvc_impl</innerclass>
+    <innerclass refid="classgr_1_1mimoots_1_1ofdm__scale__symbol__vcvc__impl" prot="public">gr::mimoots::ofdm_scale_symbol_vcvc_impl</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacegr_1_1mimoots_1a727f62a597bf04bc8e5cbfa0d4851cac" prot="public" static="no">
+        <name>state_t</name>
+        <enumvalue id="namespacegr_1_1mimoots_1a727f62a597bf04bc8e5cbfa0d4851caca8599ba8f02ec4b1903ba88f7e27205cc" prot="public">
+          <name>STATE_FIND_TRIGGER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1mimoots_1a727f62a597bf04bc8e5cbfa0d4851caca01fd8c805d178e5be30bd97efe015a5c" prot="public">
+          <name>STATE_SYMBOL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" line="29" column="1" bodyfile="/home/zwobot/projects/mimoots/gr-mimoots/lib/ofdm_extract_frame_cvc_impl.h" bodystart="29" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zwobot/projects/mimoots/gr-mimoots/include/mimoots/logcsv_cb.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="ofdm__extract__frame__cvc_8h" kind="file">
+    <compoundname>ofdm_extract_frame_cvc.h</compoundname>
+    <includes refid="api_8h" local="no">mimoots/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <includedby refid="ofdm__extract__frame__cvc__impl_8h" local="no">ofdm_extract_frame_cvc_impl.h</includedby>
+    <incdepgraph>
+      <node id="78">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="76">
+        <label>ofdm_extract_frame_cvc.h</label>
+        <link refid="ofdm_extract_frame_cvc.h"/>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="77">
+        <label>mimoots/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="78" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="81">
+        <label>ofdm_extract_frame_cvc_impl.h</label>
+        <link refid="ofdm__extract__frame__cvc__impl_8h"/>
+      </node>
+      <node id="80">
+        <label>ofdm_extract_frame_cvc.h</label>
+        <link refid="ofdm_extract_frame_cvc.h"/>
+        <childnode refid="81" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1mimoots_1_1ofdm__extract__frame__cvc" prot="public">gr::mimoots::ofdm_extract_frame_cvc</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1mimoots">gr::mimoots</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zwobot/projects/mimoots/gr-mimoots/include/mimoots/ofdm_extract_frame_cvc.h"/>
+  </compounddef>
+</doxygen>
